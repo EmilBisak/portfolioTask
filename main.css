@@ -295,21 +295,21 @@ a {
     }
 
     .newsletter {
-        width: 70%;
+        width: 80%;
         margin: 0 auto;
     }
 
     .newsletter article {
         background-color: #fcfcfc;
         padding: 10px;
+        margin: 0 auto;
         margin-bottom: 5px;
         overflow: hidden;
         box-shadow: 0 0 8px;
         border-radius: 3px;
-    }
-    
-    .newsletter article {
         padding: 20px 0;
+        max-width: 600px;
+        display: block;
     }
 
     .newsletter article h3 {
@@ -319,7 +319,7 @@ a {
 
     .newsletter input, .newsletter label, .newsletter select, .newsletter textarea {
         display: block;
-        width: 50%;
+        width: 300px;
         margin: 5px auto;
     }
 
@@ -363,6 +363,9 @@ a {
     #about-body {
         background-position-x: -500px;
     }
+    .newsletter {
+        width: 100%;
+    }
 }
   @media only screen and (max-width: 600px) {
     .tweet section{
@@ -375,6 +378,13 @@ a {
 
     .project article .image-holder {
         height: 260px;
+    }
+
+    .newsletter input,
+     .newsletter label,
+      .newsletter select,
+       .newsletter textarea {
+        width: 250px;
     }
 }
 
@@ -436,6 +446,13 @@ a {
 
     .project article .image-holder {
         height: 200px;
+    }
+
+    .newsletter input,
+     .newsletter label,
+      .newsletter select,
+       .newsletter textarea {
+        width: 220px;
     }
 }
 
